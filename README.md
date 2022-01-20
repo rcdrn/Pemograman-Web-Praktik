@@ -8,7 +8,7 @@
 • Create Tabel Users -> Run File Migration via Terminal/Command Line
 
 # Steps
-• Copy & Rename File env to .env -> settings database
+# Copy & Rename File env to .env -> settings database
 #--------------------------------------------------------------------
 # Example Environment Configuration file
 #
@@ -144,7 +144,7 @@ database.default.DBDriver = MySQLi
 # curlrequest.shareOptions = true
 
 
-• Add route resource (Resource.php) 
+# Add route resource (Resource.php) 
 <?php
 
 namespace Config;
@@ -228,7 +228,7 @@ class UsersModel extends Model
 }
 
 
-• Add UsersEntity
+# Add UsersEntity
 <?php
 
 namespace App\Entities;
@@ -249,7 +249,7 @@ class Users extends Entity
 
 
 
-• Add UsersController
+# Add UsersController
 <?php
 
 namespace App\Controllers;
@@ -334,7 +334,7 @@ class Users extends ResourceController
 
 
 
-• Insert Test Data
+# Insert Test Data
 "username": "rico_i",
     "salt": "61e940be1238e8.12947898",
     "password": "d726139394af1dc4cae22ec54a1a0625",
@@ -348,7 +348,7 @@ class Users extends ResourceController
 
 
 
-• Add Validation Rule (Validatiom.php)
+# Add Validation Rule (Validatiom.php)
 <?php
 
 namespace Config;
